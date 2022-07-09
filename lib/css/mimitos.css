@@ -21,6 +21,7 @@ main{
 }
 section{
     width: 100%;
+
 }
 .carrusel{
     display: flex;
@@ -30,6 +31,9 @@ section{
 }
 .carrusel-obj{
     width: 50vw;
+}
+.product{
+    width: 100%;
 }
     /*--------*/
     /* FOOTER */
