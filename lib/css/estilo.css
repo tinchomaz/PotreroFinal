@@ -1,1 +1,14 @@
-header{background-color: red;}
+body{
+    background: url(../img/fondo-header.png);
+}
+
+@media(max-width:576px){
+    /* Header */
+header{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 100vw;
+}
+}
