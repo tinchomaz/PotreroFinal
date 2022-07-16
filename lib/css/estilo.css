@@ -1,14 +1,359 @@
+@font-face {
+    font-family:"mystery" ;
+    src: url(../fonts/MysteryQuest-Regular.ttf);
+}
+@font-face {
+    font-family:"mouse";
+    src: url(../fonts/MouseMemoirs-Regular.ttf);
+}
+@keyframes cambiarColor{
+    0%{
+        border-color: red;
+    }
+    50%{
+        border-color:yellow;
+    }
+    100%{
+        border-color: blue;
+    }
+}
+@keyframes cambiarColorfoo{
+    0%{
+        background:rgb(198, 234, 245);
+    }
+    100%{
+        background:rgb(32, 184, 230);
+    }
+}
 body{
     background: url(../img/fondo-header.png);
 }
 
-@media(max-width:576px){
+
+@media(min-width:992px){
+    /* Nav */
+nav{
+    height: 7vh;
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+}
+.nav{
+    font-size: 2rem;
+    width: 5vw;
+    font-family: mouse;
+}
+#logo-nav{  
+    width: 10%;
+}
+.nav-bot{
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+}
+.nav-prod{
+    background-color:rgb(247, 221, 244) ;
+}
     /* Header */
 header{
     display: flex;
     justify-content: center;
 }
-#logo{
+.logo{
+    margin-top: 7vh;
+    width: 30vw;
+}
+
+#logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.categor{
+    width: 3rem;
+}
+    /* Aside */
+aside{
+    font-family:mystery;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-left: 1%;
+
+}
+.aside{
+    width: 50%;
+    border: 5px solid;
+    animation-name:cambiarColor;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+    /* Section */
+.productos{
+    padding: 5%;
+}
+    /* Footer */
+footer{
+    height: 10vh;
+    display: block;
+    align-items: center;
+    text-align:center;
+    padding: 1rem;
+    animation-name: cambiarColorfoo;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+}
+
+.card{
+    margin: 0.5em;
+    width: 33%;
+}
+.card-tienda{
+    display: flex;
+}
+}
+@media(max-width:991px){
+    /* Nav */
+nav{
+    height: 7vh;
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+    position: fixed;
+}
+.nav{
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+    width: 5vw;
+    display: flex;
+    justify-content: end;
+}
+#logo-nav{
+    height: 100%;
+    width: 30%;
+}
+.nav-bot{
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+}
+#logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.nav-prod{
+    background-color:rgb(247, 221, 244) ;
+}
+    /* Header */
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
     width: 100vw;
+}
+.categor{
+    width: 3rem;
+}
+    /* Aside */
+aside{
+    font-family:mystery;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 1%;
+}
+.aside{
+    width: 100%;
+    border: 5px solid;
+    animation-name:cambiarColor;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+    /* Section */
+.productos{
+    padding: 5%;
+}
+    /* Footer */
+footer{
+    height: 10vh;
+    display: block;
+    align-items: center;
+    text-align:center;
+    padding: 1rem;
+    animation-name: cambiarColorfoo;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+}
+    /* ARTICLE */
+article{
+    padding-top: 7vh;
+}
+.card:not(:first-child){
+    display: none;
+}
+}
+@media(max-width:767px){
+    /* Nav */
+nav{
+    height: 10vh;
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+}
+.nav{
+    background-color: rgb(247, 201, 242);
+}
+    /* Header */
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-top: 10vh;
+    width: 100vw;
+}
+.categor{
+    width: 3rem;
+}
+#logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+    /* Aside */
+aside{
+    font-family:mystery;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1%;
+}
+.aside{
+    width: 100%;
+    border: 5px solid;
+    animation-name:cambiarColor;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+    /* Section */
+.productos{
+    padding: 5%;
+}
+    /* Footer */
+footer{
+    height: 10vh;
+    display: block;
+    align-items: center;
+    text-align:center;
+    padding: 1rem;
+    animation-name: cambiarColorfoo;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+}
+    /* ARTICLE */
+article{
+    padding-top: 9vh;
+}
+.card:not(:first-child){
+    display: none;
+}
+}
+@media(max-width:576px){
+    /* Nav */
+nav{
+    height: 10vh;
+    background:linear-gradient(90deg,rgb(247, 221, 244),rgb(235, 92, 218));
+}
+.nav{
+    background-color: rgb(247, 201, 242);
+}
+.nav-elem{
+    font-size: 1.5rem;
+    display: flex;
+    font-family: mouse;
+}
+.categor{
+    width: 3rem;
+}
+.nav-ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Header */
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-top: 10vh;
+    width: 100vw;
+}
+    /* Aside */
+aside{
+    font-family:mystery;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1%;
+}
+.aside{
+    width: 100%;
+    margin: 0;
+    border: 5px solid;
+    animation-name:cambiarColor;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+#logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+    /* Section */
+.productos{
+    padding: 5%;
+}
+    /* Footer */
+footer{
+    height: 10vh;
+    display: block;
+    align-items: center;
+    text-align:center;
+    padding: 1rem;
+    animation-name: cambiarColorfoo;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+}
+    /* ARTICLE */
+article{
+    padding-top: 11vh;
+}
+.card:not(:first-child){
+    display: none;
 }
 }

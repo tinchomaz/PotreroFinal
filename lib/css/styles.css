@@ -4028,7 +4028,9 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
