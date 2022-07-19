@@ -18,29 +18,34 @@
 </head>
 
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid navegador">
-
-          <div class=" nav" id="navbarNavDropdown">
-            <ul class="navbar-nav ul-nav">
-                <li class="nav-item"><a class="nav-link active nav-elem" aria-current="page" href="../../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link nav-elem" href="https://api.whatsapp.com/send?phone=5492615684739&text=Mimitos">Contacto</a></li>
-                <li class="nav-item dropdown">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu nav-prod" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item nav-elem" href="lib/html/bebe.html">Bebes<img src="../img/icons/oso.png" class="categor"></a></li>
-                    <li><a class="dropdown-item nav-elem" href="lib/html/nene.html">Niños<img src="../img/icons/game.png" class="categor"></a></li>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" id="nav-barra">
+              <a class="navbar-brand" href="../../index.html"><img src="../img/logo.png" class="logo-nav"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="barra-ul">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=5492615684739&text=Mimitos">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="bebe.html">Bebe<img src="../img/icons/oso.png" width="50px"></a></li>
+                      <li><a class="dropdown-item" href="nene.html">Niño<img src="../img/icons/game.png" width="50px"></a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-            </ul>
-            <a class="logo-nav" href="https://www.instagram.com/mimitos.mza/"><img src="../img/logo.png" id="logo-nav"></a>
-          </div>
-        </div>
-      </nav>
+              </div>
+            </div>
+          </nav>
     <!-- ARTICLE -->
     <article class="mostrador">
         <!-- CARRUSEL PARA PANTALLAS GRANDES -->
@@ -49,93 +54,128 @@
                 <div class="carousel-item active">
                     <div class="cards-wrapper card-tienda">
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/Azul.jfif" alt="Card image cap">
+                            <img class="card-img-top" src="../img/productos/Buzos/monte2.jfif"
+                                alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Los Angeles Azul</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">$2900</a>
+                                <h5 class="card-title">Montecarlo</h5>
+                                <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$1900</a>
                             </div>
                         </div>
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/negra.jfif" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Los Angeles Negro</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">2900</a>
-                            </div>
+                            <img class="card-img-top" src="../img/productos/Buzos/monte3.jfif"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Montecarlo</h5>
+                                    <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                    <a href="#" class="btn btn-primary">$1900</a>
+                                </div>
                         </div>
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/gris.jfif" alt="Card image cap">
+                            <img class="card-img-top" src="../img/productos/Buzos/new1.jfif"
+                                alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Los Angeles Gris</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">$2900</a>
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
                 <div class="carousel-item">
                         <div class="cards-wrapper card-tienda">
                             <div class="card card1">
-                                <img class="card-img-top" src="../img/productos/camperas/pastel.jfif"
+                                <img class="card-img-top" src="../img/productos/Buzos/geno1.jfif"
                                     alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Los Angeles Pastel</h5>
-                                    <p class="card-text">Talles de bebé y niño</p>
-                                    <a href="#" class="btn btn-primary">$2900</a>
+                                    <h5 class="card-title">Génova</h5>
+                                    <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                    <a href="#" class="btn btn-primary">$2300</a>
                                 </div>
                             </div>
                             <div class="card card1">
-                                <img class="card-img-top" src="../img/productos/camperas/Rosa.jfif"
+                                <img class="card-img-top" src="../img/productos/Buzos/geno2.jfif"
                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Los Angeles Rosa</h5>
-                                    <p class="card-text">Talles de bebé y niño</p>
-                                    <a href="#" class="btn btn-primary">$2900</a>
-                                </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Génova</h5>
+                                        <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                        <a href="#" class="btn btn-primary">$2300</a>
+                                    </div>
                             </div>
                             <div class="card card1">
-                                <img class="card-img-top" src="../img/productos/camperas/verde.jfif"
+                                <img class="card-img-top" src="../img/productos/Buzos/geno3.jfif"
                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Los Angeles Verde</h5>
-                                    <p class="card-text">Talles de bebé y niño</p>
-                                    <a href="#" class="btn btn-primary">$2900</a>
-                                </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Génova</h5>
+                                        <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                        <a href="#" class="btn btn-primary">$2300</a>
+                                    </div>
                             </div>
                         </div>
                 </div>
                 <div class="carousel-item">
                     <div class="cards-wrapper card-tienda">
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/rojo.jfif"
+                            <img class="card-img-top" src="../img/productos/Buzos/michigan1.jfif"
                                 alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Los Angeles Rojo</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">$2900</a>
+                                <h5 class="card-title">Michigan</h5>
+                                <p class="card-text">Talles de niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$2250</a>
                             </div>
                         </div>
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/marron.jfif"
+                            <img class="card-img-top" src="../img/productos/Buzos/michigan2.jfif"
                                 alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Los Angeles Marron</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">$2900</a>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Michigan</h5>
+                                    <p class="card-text">Talles de niño 4-12</p>
+                                    <a href="#" class="btn btn-primary">$2250</a>
+                                </div>
                         </div>
                         <div class="card card1">
-                            <img class="card-img-top" src="../img/productos/camperas/crema.jfif"
+                            <img class="card-img-top" src="../img/productos/Buzos/monte1.jfif"
                                 alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Los Angeles Crema</h5>
-                                <p class="card-text">Talles de bebé y niño</p>
-                                <a href="#" class="btn btn-primary">$2900</a>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Montecarlo</h5>
+                                    <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                    <a href="#" class="btn btn-primary">$1900</a>
+                                </div>
                         </div>
                     </div>
             </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper card-tienda">
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/new2.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
+                            </div>
+                    </div>
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/new3.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
+                            </div>
+                    </div>
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/new4.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
+                            </div>
+                    </div>
+                </div>
+        </div>
+
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -152,72 +192,123 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/Azul.jfif" alt="Card image cap">
+                        <img class="card-img-top" src="../img/productos/Buzos/monte2.jfif"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Los Angeles Azul</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
+                            <h5 class="card-title">Montecarlo</h5>
+                            <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                            <a href="#" class="btn btn-primary">$1900</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/gris.jfif" alt="Card image cap">
+                        <img class="card-img-top" src="../img/productos/Buzos/monte3.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Montecarlo</h5>
+                                <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$1900</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/new1.jfif"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Los Angeles Gris</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
+                            <h5 class="card-title">New York</h5>
+                            <p class="card-text">Talles de bebé 1-7</p>
+                            <a href="#" class="btn btn-primary">$1700</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/negra.jfif" alt="Card image cap">
+                        <img class="card-img-top" src="../img/productos/Buzos/geno1.jfif"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Los Angeles Negra</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
+                            <h5 class="card-title">Génova</h5>
+                            <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                            <a href="#" class="btn btn-primary">$2300</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/pastel.jfif" alt="Card image cap">
+                        <img class="card-img-top" src="../img/productos/Buzos/geno2.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Génova</h5>
+                                <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$2300</a>
+                            </div>
+                    </div>
+            </div>
+                <div class="carousel-item">
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/geno3.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Génova</h5>
+                                <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$2300</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/michigan1.jfif"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Los Angeles Pastel</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
+                            <h5 class="card-title">Michigan</h5>
+                            <p class="card-text">Talles de niño 4-12</p>
+                            <a href="#" class="btn btn-primary">$2250</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/Rosa.jfif" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Los Angeles Rosa</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
-                        </div>
+                        <img class="card-img-top" src="../img/productos/Buzos/michigan2.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Michigan</h5>
+                                <p class="card-text">Talles de niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$2250</a>
+                            </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/verde.jfif" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Los Angeles Verde</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
-                        </div>
+                        <img class="card-img-top" src="../img/productos/Buzos/monte1.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Montecarlo</h5>
+                                <p class="card-text">Talles de bebé 1-7 y niño 4-12</p>
+                                <a href="#" class="btn btn-primary">$1900</a>
+                            </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card card1">
-                        <img class="card-img-top prod" src="../img/productos/camperas/rojo.jfif" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Los Angeles Roja</h5>
-                            <p class="card-text">Talles de bebé y niño</p>
-                            <a href="#" class="btn btn-primary">$2900</a>
-                        </div>
+                        <img class="card-img-top" src="../img/productos/Buzos/new2.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card1">
+                        <img class="card-img-top" src="../img/productos/Buzos/new4.jfif"
+                            alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">Talles de bebé 1-7</p>
+                                <a href="#" class="btn btn-primary">$1700</a>
+                            </div>
                     </div>
                 </div>
             </div>

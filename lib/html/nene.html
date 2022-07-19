@@ -18,29 +18,34 @@
 </head>
 
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid navegador">
-
-          <div class=" nav" id="navbarNavDropdown">
-            <ul class="navbar-nav ul-nav">
-                <li class="nav-item"><a class="nav-link active nav-elem" aria-current="page" href="../../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link nav-elem" href="https://api.whatsapp.com/send?phone=5492615684739&text=Mimitos">Contacto</a></li>
-                <li class="nav-item dropdown">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu nav-prod" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item nav-elem" href="lib/html/bebe.html">Bebes<img src="../img/icons/oso.png" class="categor"></a></li>
-                    <li><a class="dropdown-item nav-elem" href="lib/html/nene.html">Niños<img src="../img/icons/game.png" class="categor"></a></li>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" id="nav-barra">
+              <a class="navbar-brand" href="../../index.html"><img src="../img/logo.png" class="logo-nav"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="barra-ul">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=5492615684739&text=Mimitos">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="bebe.html">Bebe<img src="../img/icons/oso.png" width="50px"></a></li>
+                      <li><a class="dropdown-item" href="nene.html">Niño<img src="../img/icons/game.png" width="50px"></a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-            </ul>
-            <a class="logo-nav" href="https://www.instagram.com/mimitos.mza/"><img src="../img/logo.png" id="logo-nav"></a>
-          </div>
-        </div>
-      </nav>
+              </div>
+            </div>
+          </nav>
     <!-- ARTICLE -->
     <article class="mostrador">
         <!-- CARRUSEL PARA PANTALLAS GRANDES -->

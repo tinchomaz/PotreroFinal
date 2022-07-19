@@ -99,7 +99,7 @@ aside{
 .fotos1{
     margin-left: 2rem;
     margin-bottom: 5rem;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -113,6 +113,14 @@ aside{
     flex-direction: column-reverse;
 
 }
+#fotos{
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 #foto1{
     margin-bottom: 1rem;
     border: 3px solid;
@@ -121,12 +129,10 @@ aside{
     border: 3px solid;
 }
 #foto3{
-    width: 40vw;
     margin-bottom: 1rem;
     border: 3px solid;
 }
 #foto4{
-    width: 40vw;
     margin-bottom: 1rem;
     border: 3px solid;
 }
@@ -229,7 +235,7 @@ footer{
     .fotos1{
         margin-left: 2rem;
         margin-bottom: 5rem;
-        width: 35%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -243,6 +249,14 @@ footer{
         flex-direction: column-reverse;
     
     }
+    #fotos{
+        margin-right: 2rem;
+        margin-bottom: 5rem;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
     #foto1{
         width: 100%;
         margin-bottom: 1rem;
@@ -254,12 +268,11 @@ footer{
     }
     #foto3{
         width: 100%;
-        width: 35vw;
         margin-bottom: 1rem;
         border: 3px solid;
     }
     #foto4{
-        width: 35vw;
+        width: 100%;
         margin-bottom: 1rem;
         border: 3px solid;
     }
@@ -370,6 +383,14 @@ aside{
     flex-direction: column-reverse;
 
 }
+#fotos{
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 #foto1{
     width: 100%;
     margin-bottom: 1rem;
@@ -380,13 +401,10 @@ aside{
     border: 3px solid;
 }
 #foto3{
-    width: 100%;
-    width: 40vw;
     margin-bottom: 1rem;
     border: 3px solid;
 }
 #foto4{
-    width: 40vw;
     margin-bottom: 1rem;
     border: 3px solid;
 }
@@ -479,7 +497,7 @@ aside{
 .fotos1{
     margin-left: 2rem;
     margin-bottom: 5rem;
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -491,25 +509,31 @@ aside{
     justify-content: end;
     align-items: flex-end;
     flex-direction: column-reverse;
-
+}
+#fotos{
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 #foto1{
-    width: 100%;
+
     margin-bottom: 1rem;
     border: 3px solid;
 }
 #foto2{
-    width: 100%;
+
     border: 3px solid;
 }
 #foto3{
-    width: 100%;
-    width: 60vw;
+
     margin-bottom: 1rem;
     border: 3px solid;
 }
 #foto4{
-    width: 60vw;
+
     margin-bottom: 1rem;
     border: 3px solid;
 }
