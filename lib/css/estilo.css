@@ -51,7 +51,7 @@ body{
         font-family: mouse;
     }
     .logo-nav{
-        width: 100px;
+        height: 9vh;
     }
     #nav-barra{
         padding-left: 45%;
@@ -434,7 +434,7 @@ article{
         font-family: mouse;
     }
     .logo-nav{
-        width: 80px;
+        width: 7vh;
     }
     #nav-barra{
         padding-left: 45%;
